@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .btn {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   margin: 5px;
-  font-size: 24px;
+  font-size: 18px;
   background-color: #bbf7d0;
   border: 2px solid #22c55e;
   cursor: pointer;
@@ -28,4 +28,20 @@
 
 .board {
   display: inline-block;
+}
+
+.opt-btn {
+  border-radius: 50px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #3bc46d;
+}
+
+.opt-btn.selected {
+  background-color: orangered; /* Selected background color */
+  color: white; /* Selected text color */
+}
+
+.opt-btn:hover {
+  background-color: gray; /* Hover background */
 }
